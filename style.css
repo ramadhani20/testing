@@ -9,3 +9,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+@media screen and (max-width: 699px){
+    img {
+        width:120px;
+    }
+}
