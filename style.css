@@ -10,32 +10,16 @@ body {
     background-color: #121212;
 }
 
-.akses-cepat h5 {
-    font-weight: 700;
-}
-.akses-cepat p{
-    font-size: 10px;
-}
-
-@media screen and (max-width: 495px){
-    .header img {
-        width: 160px;
-    }
-    .hero img {
-        width:180px;
-    }
-
-    .login {
-        width: 280px;
-        
-    }
-}
 
 @media screen and (max-width: 768px) {
     /* Ubah tinggi gambar pada carousel */
-    #carouselExampleIndicators .carousel-inner .carousel-item img {
+   .hero #carouselExampleIndicators .carousel-inner .carousel-item img {
       height: auto; /* Atur tinggi gambar menjadi otomatis */
       max-height: 300px; /* Atur tinggi maksimum gambar */
+    }
+
+    .header img {
+        width: 160px;
     }
   }
 
