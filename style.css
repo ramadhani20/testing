@@ -18,7 +18,10 @@ body {
 }
 
 @media screen and (max-width: 495px){
-    img {
+    .header img {
+        width: 160px;
+    }
+    .hero img {
         width:180px;
     }
 
@@ -33,28 +36,6 @@ body {
     #carouselExampleIndicators .carousel-inner .carousel-item img {
       height: auto; /* Atur tinggi gambar menjadi otomatis */
       max-height: 300px; /* Atur tinggi maksimum gambar */
-    }
-
-    .col-md-4 {
-        /* Mengubah lebar kolom menjadi penuh pada tampilan mobile */
-        width: 100%;
-    }
-
-    .akses-cepat h5 {
-        font-size: 18px; /* Mengurangi ukuran font pada tampilan mobile */
-    }
-
-    .akses-cepat p {
-        font-size: 12px; /* Mengurangi ukuran font pada tampilan mobile */
-    }
-
-    img {
-        max-width: 100%; /* Mengatur gambar agar sesuai dengan lebar perangkat */
-        height: auto; /* Mengatur tinggi gambar menjadi otomatis */
-    }
-
-    .btn.btn-primary.w-100 {
-        font-size: 16px; /* Mengurangi ukuran font tombol pada tampilan mobile */
     }
   }
 
