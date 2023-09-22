@@ -7,10 +7,55 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #121212;
 }
 
-@media screen and (max-width: 699px){
+.akses-cepat h5 {
+    font-weight: 700;
+}
+.akses-cepat p{
+    font-size: 10px;
+}
+
+@media screen and (max-width: 495px){
     img {
-        width:120px;
+        width:180px;
+    }
+
+    .login {
+        width: 280px;
+        
     }
 }
+
+@media screen and (max-width: 768px) {
+    /* Ubah tinggi gambar pada carousel */
+    #carouselExampleIndicators .carousel-inner .carousel-item img {
+      height: auto; /* Atur tinggi gambar menjadi otomatis */
+      max-height: 300px; /* Atur tinggi maksimum gambar */
+    }
+
+    .col-md-4 {
+        /* Mengubah lebar kolom menjadi penuh pada tampilan mobile */
+        width: 100%;
+    }
+
+    .akses-cepat h5 {
+        font-size: 18px; /* Mengurangi ukuran font pada tampilan mobile */
+    }
+
+    .akses-cepat p {
+        font-size: 12px; /* Mengurangi ukuran font pada tampilan mobile */
+    }
+
+    img {
+        max-width: 100%; /* Mengatur gambar agar sesuai dengan lebar perangkat */
+        height: auto; /* Mengatur tinggi gambar menjadi otomatis */
+    }
+
+    .btn.btn-primary.w-100 {
+        font-size: 16px; /* Mengurangi ukuran font tombol pada tampilan mobile */
+    }
+  }
+
+
